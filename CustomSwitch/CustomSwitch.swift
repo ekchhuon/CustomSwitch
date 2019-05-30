@@ -306,7 +306,7 @@ extension CustomSwitch {
         return true
     }
     
-    func setOn(on:Bool, animated:Bool) {
+    public func setOn(on:Bool, animated:Bool) {
         
         switch animated {
         case true:
